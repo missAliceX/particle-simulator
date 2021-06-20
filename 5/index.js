@@ -31,7 +31,7 @@ function init() {
   renderer.add_object(new Circle("green"));
   renderer.add_object(new Circle("red"));
 
-  // Make a new circle when the mouse is clicked.
+  // Make a new circle with a random color when the mouse is clicked.
   // Make sure the circle shows up right where you clicked.
 
   renderer.render();

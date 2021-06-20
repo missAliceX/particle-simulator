@@ -6,7 +6,7 @@ class Circle {
     this.y = randomInt(0, canvas.height);
     this.color = color;
     this.radius = 5;
-    this.velocity = 5; // this is how fast the circle is going in the given direction
+    this.velocity = 15; // this is how fast the circle is going in the given direction
     this.direction = randomInt(0, 360) / (2 * Math.PI); // this is the angle in radians representing the direction the circle is going
   }
   update_position() {

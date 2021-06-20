@@ -13,9 +13,12 @@ class Renderer {
     this.objs.push(obj);
   }
   render() {
-    console.log("ow ow ow, stop it.");
-    // Draw each of the objects here
-    // Hint: loop through this.objs and call draw()
+    // 1. Draw each of the objects here
+    // Hint: loop through this.objs and call draw() and update_position()
+    // 2. Oh, it's not moving still...
+    // Hint: Let's implement update_position()
+    // 3. It's kind of moving, but something looks weird...
+    // Hint: Look up "clear canvas"
 
     // What is someFunction.bind()?
     // What is requestAnimationFrame(anotherFunction)?
