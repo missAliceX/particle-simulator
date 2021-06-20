@@ -9,7 +9,7 @@ class Renderer {
   constructor() {
     this.objs = new Array();
   }
-  add_object(obj) {
+  addObject(obj) {
     this.objs.push(obj);
   }
   render() {
@@ -28,7 +28,7 @@ class Renderer {
 }
 
 var renderer = new Renderer();
-renderer.add_object(new Circle("blue"));
-renderer.add_object(new Circle("green"));
-renderer.add_object(new Circle("red"));
+renderer.addObject(new Circle("blue"));
+renderer.addObject(new Circle("green"));
+renderer.addObject(new Circle("red"));
 renderer.render();

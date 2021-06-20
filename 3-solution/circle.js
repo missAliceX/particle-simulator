@@ -9,7 +9,7 @@ class Circle {
     this.velocity = 5;
     this.direction = randomInt(0, 360) / (2 * Math.PI);
   }
-  update_position() {
+  updatePosition() {
     this.x += this.velocity * Math.cos(this.direction);
     this.y += this.velocity * Math.sin(this.direction);
   }

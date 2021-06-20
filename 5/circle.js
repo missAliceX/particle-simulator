@@ -15,11 +15,11 @@ class Circle {
     this.ctx.fillStyle = this.color;
     this.ctx.fill();
   }
-  update_position() {
+  updatePosition() {
     this.x += this.velocity * Math.cos(this.direction);
     this.y += this.velocity * Math.sin(this.direction);
   }
-  check_collision() {
+  checkCollision() {
     var canvas = document.getElementById("myCanvas");
     var next_x = this.x + this.velocity * Math.cos(this.direction);
     var next_y = this.y + this.velocity * Math.sin(this.direction);

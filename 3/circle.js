@@ -9,7 +9,7 @@ class Circle {
     this.velocity = 15; // this is how fast the circle is going in the given direction
     this.direction = randomInt(0, 360) / (2 * Math.PI); // this is the angle in radians representing the direction the circle is going
   }
-  update_position() {
+  updatePosition() {
     // Update this.x and this.y here. It needs to move according to its velocity.
     // Hint: Use trigonometry
   }

@@ -15,11 +15,11 @@ class Circle {
     this.ctx.fillStyle = this.color;
     this.ctx.fill();
   }
-  update_position() {
+  updatePosition() {
     this.x += this.velocity * Math.cos(this.direction);
     this.y += this.velocity * Math.sin(this.direction);
   }
-  check_collision() {
+  checkCollision() {
     // Check to see if the circle wiil hit the walls of the canvas in the next frame
     // If so, make it move in an opposite random direction
     // Hint: Use some conditional statements
