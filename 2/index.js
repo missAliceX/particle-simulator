@@ -11,7 +11,9 @@ function draw(objs) {
   }
 }
 
-// Can you create circles with different colors?
+// Can you create circles with different colors? Or create more circles?
+// Can you create more circles?
+// Can you use a loop like you see above to push these circles instead?
 var objs = new Array();
 objs.push(new Circle("blue"));
 objs.push(new Circle("green"));

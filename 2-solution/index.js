@@ -13,7 +13,8 @@ function draw(objs) {
 }
 
 var objs = new Array();
-objs.push(new Circle("blue"));
-objs.push(new Circle("green"));
-objs.push(new Circle("red"));
+var colors = ["blue", "green", "red"];
+for (let color of colors) {
+  objs.push(new Circle(color));
+}
 draw(objs);
